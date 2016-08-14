@@ -15,7 +15,7 @@ public class Jen {
 	public void login()
 	{
 	
-	System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
+	//System.setProperty("webdriver.gecko.driver","C:\\geckodriver.exe");
 	WebDriver driver=new FirefoxDriver();
 	driver.get("http://www.gmail.com");
 	//stem.out.println("hi");
